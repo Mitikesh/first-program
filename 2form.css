@@ -1,0 +1,84 @@
+*{ 
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#wrapped{
+    display: flex;
+    height: 87vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container{
+    width: 400px;
+    height: 400px;
+    padding: 25px 30px;
+    border-radius: 12px;
+    border: 2px solid black;
+    background-color: bisque;
+}
+.topic{
+    font-size: larger;
+    margin-bottom:10px;
+    align-content: center;
+    font-weight: bold;
+}
+.title{
+    align-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-decoration: wavy;
+    color: black;
+}
+button{
+    background-color:#AED2FF;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#nav{
+    height:155px;
+    border-top:45px;
+    border-bottom:60px;
+    background-color:#232f3e;
+    border-radius: 5px;
+}
+.social{
+    text-decoration: none;
+    margin:60px;
+    font-size: 20px;
+    border-top: 15px;
+    color: aqua;
+    font-weight: bold;
+    line-height: 30px;
+}
+#follow{
+    border-top: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+#footer{
+    border-top:5px;
+    margin-left:10px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family:Verdana, Tahoma, sans-serif;
+    color: white;
+}
+.social i{
+    color:white ;
+}
+
+ @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css')

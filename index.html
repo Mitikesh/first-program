@@ -19,7 +19,7 @@
     </head>
     <body>
         <div id="wrapped">
-            <form>
+            <form action="https://formspree.io/f/movvrgpl" method="POST">
                 <div class="container">
                  <div class="form-box">
                    <div class="title">Registration</div>
@@ -27,30 +27,30 @@
                  </div>
                  <div>
                     <label for="forname" id="name" class="topic">Name: </label>
-                    <input type="text" id="forame" for="forname" placeholder="Name" required class="form-box">
+                    <input type="text" id="forame" name="name" for="forname" placeholder="Name" required class="form-box" autovomplete="off">
                  </div>
                  <div>
                     <label for="forage" id="age"class="topic" >Age:</label>
-                    <input type="number" id="age" for="forage" placeholder="Age" required class="form-box">
+                    <input type="number" id="age" for="forage" name="age" placeholder="Age" required class="form-box" autovomplete="off">
                  </div>
                  <div>
                     <label for="roll_no" id="roll no"class="topic"> Roll no:</label>
-                    <input type="number" name="roll no" id="roll_no" placeholder="Roll no" required class="form-box">
+                    <input type="number" name="roll no" name="number" id="roll_no" placeholder="Roll no" required class="form-box" autovomplete="off">
                  </div>
                  <div>
                     <label for="forSTD" id="STD"class="topic"> STD:</label>
-                    <input type="number" name="STD" id="forSTD" placeholder="Standard" required class="form-box">
+                    <input type="number" name="STD" id="forSTD" name="std" placeholder="Standard" required class="form-box" autovomplete="off">
                  </div>
                  <div>
                     <label for="email" id="email"class="topic"> Email:</label>
-                    <input type="email" name="email" id="email" placeholder="email id" required class="form-box">
+                    <input type="email" name="email" id="email" name="email" placeholder="email id" required class="form-box" autovomplete="off">
                  </div>
                  <br>              
                  <div>
                     <button>submit</button>
                  </div>
                  <div>
-                  <label for="modification" id="modification"> any modifaction then let me know </label>
+                  <label for="modification" id="modification" name="message" required autovomplete="off"> any modifaction then let me know </label>
                   <textarea></textarea>
                  </div>
                </div>
